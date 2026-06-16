@@ -6,8 +6,16 @@
 
 - **GitHub 仓库**：[`https://github.com/nimijRrrrrrq/Trust_Mechanism_Model_Simulation.git`](https://github.com/nimijRrrrrrq/Trust_Mechanism_Model_Simulation)
 - **Issues**：[`https://github.com/nimijRrrrrrq/Trust_Mechanism_Model_Simulation/issues`](https://github.com/nimijRrrrrrq/Trust_Mechanism_Model_Simulation/issues)
-- **作者 / 维护者**：`nimijRrrrrrq`
 - **License**：MIT （*请按实际 license 调整*）
+
+## 👥 作者
+
+| 角色 | GitHub | 邮箱 |
+|------|--------|------|
+| 主要作者 | [@nimijRrrrrrq](https://github.com/nimijRrrrrrq) | 17842218379@163.com |
+| 共同作者 | [@x-blue27](https://github.com/x-blue27) | 2728055416@qq.com |
+
+> 本项目由上述两位作者共同完成。贡献内容可在 [GitHub 贡献者页面](https://github.com/nimijRrrrrrq/Trust_Mechanism_Model_Simulation/graphs/contributors) 与 commit 历史中追溯。
 
 ---
 
@@ -831,7 +839,7 @@ AblationEigenTrust.compute(network, enabled_modules={'time_decay': True})
 ```bibtex
 @misc{trustsimulation2026,
   title  = {Trust Simulation Platform: Improved EigenTrust with Time Decay, Confidence Discount, Sybil Defense and Adaptive Pre-trust},
-  author = {nimijRrrrrrq},
+  author = {nimijRrrrrrq and x-blue27},
   year   = {2026},
   url    = {https://github.com/nimijRrrrrrq/Trust_Mechanism_Model_Simulation}
 }
