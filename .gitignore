@@ -1,0 +1,84 @@
+# ============================================================
+# Trust Simulation Platform - .gitignore
+# ============================================================
+
+# ---------- Python 编译缓存 ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ---------- 打包 / 构建产物 ----------
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# ---------- 虚拟环境 ----------
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ---------- IDE / 编辑器 ----------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+*.ipynb
+
+# ---------- 测试 / 覆盖率 ----------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.cache/
+coverage.xml
+*.cover
+
+# ============================================================
+# 项目特定的实验结果 / 日志
+# ============================================================
+# 大型实验产物通常不入库（按需反注释）
+# results/figures/*.png
+# results/logs/*.log
+results/
+logs/
+
+# ============================================================
+# 数据集
+# ============================================================
+# 真实数据集通常体积较大，按需反注释屏蔽整目录
+# data/soc-Epinions1.txt/
+# data/filmtrust/
+# data/soc-sign-bitcoinotc.csv/
+
+# ============================================================
+# 系统 / 用户
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+*.pid
+*.seed
+
+# 环境变量 / 凭据
+.env
+.env.local
+.env.*.local
+secrets.yaml
+credentials.json
